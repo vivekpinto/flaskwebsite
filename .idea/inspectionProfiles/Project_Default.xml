@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="sum" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.*" />
+          <option value="Playfair.*" />
+          <option value="RailFence.msg" />
+          <option value="Test.raw_input" />
+          <option value="Test.get_coords" />
+          <option value="Test.parse_message" />
+          <option value="Test.xrange" />
+          <option value="RailFence.get_coords" />
+          <option value="RailFence.parse_message" />
+          <option value="RailFence.raw_input" />
+          <option value="RailFence.xrange" />
+          <option value="test2.xrange" />
+          <option value="test2.long" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
